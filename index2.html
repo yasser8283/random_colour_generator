@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Colour Generator</title>
+</head>
+<body>
+    <nav>
+        <h1>Random Colour Generator</h1>
+    </nav>
+    <div class="container">
+        <h2>Hexadecimal Colours</h2>
+        <h2>The Colour You Are Seeing Is: <span id="colour-name">#c2f5eb</span></h2>
+        <div class="btn">
+        <button id="changebtn"><span class="btn-text">CHANGE COLOUR</span></button>
+        <button id="simplebtn"><span class="btn-text">SIMPLE COLOURS</span></button>
+        </div>
+    </div>
+    <script>
+        const simpleBtn = document.getElementById('simplebtn');
+        simpleBtn.addEventListener("click",function()
+    {
+        window.location.href = "index.html"
+    });
+    </script>
+    <script src="script2.js"></script>
+</body>
+</html>
